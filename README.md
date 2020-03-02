@@ -21,6 +21,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/description/) | [Rust solution](./solutions/832.flipping-an-image.rs)|
 |𝐄.938 | [range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/description/) | [Rust solution](./solutions/938.range-sum-of-bst.rs)|
 |𝐄.956 | [tallest-billboard](https://leetcode.com/problems/tallest-billboard/description/) | [Rust solution](./solutions/956.tallest-billboard.rs)|
+|𝐄.977 | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) | [Rust solution](./solutions/977.squares-of-a-sorted-array.rs)|
 |𝐄.1009 | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/description/) | [Rust solution](./solutions/1009.complement-of-base-10-integer.rs)|
 |𝐄.1108 | [defanging-an-ip-address](https://leetcode.com/problems/defanging-an-ip-address/description/) | [Rust solution](./solutions/1108.defanging-an-ip-address.rs)|
 |𝐄.1221 | [split-a-string-in-balanced-strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/description/) | [Rust solution](./solutions/1221.split-a-string-in-balanced-strings.rs)|
