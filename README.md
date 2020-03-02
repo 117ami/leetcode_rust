@@ -14,6 +14,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1 | [two-sum](https://leetcode.com/problems/two-sum/description/) | [Rust solution](./solutions/1.two-sum.rs)|
 |𝐄.509 | [fibonacci-number](https://leetcode.com/problems/fibonacci-number/description/) | [Rust solution](./solutions/509.fibonacci-number.rs)|
 |𝐄.709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/description/) | [Rust solution](./solutions/709.to-lower-case.rs)|
+|𝐄.728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/description/) | [Rust solution](./solutions/728.self-dividing-numbers.rs)|
 |𝐄.771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/description/) | [Rust solution](./solutions/771.jewels-and-stones.rs)|
 |𝐄.804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/description/) | [Rust solution](./solutions/804.unique-morse-code-words.rs)|
 |𝐄.832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/description/) | [Rust solution](./solutions/832.flipping-an-image.rs)|
