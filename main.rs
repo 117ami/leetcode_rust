@@ -3,7 +3,9 @@ mod aux;
 mod question; 
 
 fn main(){
-	let a = vec![1,2,3,4];
-	println!("{:?}", question::Solution::sort_array_by_parity(a));
+	// let s = "(()())(())";
+	let mut s = "(()())(())(()(()))";
+	s = "()()";
+	println!("{:?}", question::Solution::remove_outer_parentheses(s.to_string()));
 }
 
