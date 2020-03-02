@@ -17,7 +17,8 @@ def parse_problem(pro_file):
         # extract problem [link, difficulty, id]
     con = open(pro_file, 'r').read()
     plink = re.search(r'(https://.*)', con, re.M | re.I).group(1)
-    diffi = re.search(r'# (Medium|Easy|Hard)', con, re.M | re.I).group(1)
+    diffi = re.search(r'# (Medium|Easy|Hard)', con, re.M | re.I)
+    diffi = diffi.group(1) if diffi else 'Easy'
     pid = pro_file.replace('/', '.').split(".")[1]
     title = pro_file.replace('/', '.').split(".")[2]
     return [plink, diffi, pid, title]
