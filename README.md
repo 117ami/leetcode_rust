@@ -13,6 +13,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 | :---- | :----- | :------- | 
 |𝐄.1 | [two-sum](https://leetcode.com/problems/two-sum/description/) | [Rust solution](./solutions/1.two-sum.rs)|
 |𝐄.509 | [fibonacci-number](https://leetcode.com/problems/fibonacci-number/description/) | [Rust solution](./solutions/509.fibonacci-number.rs)|
+|𝐄.657 | [robot-return-to-origin](https://leetcode.com/problems/robot-return-to-origin/description/) | [Rust solution](./solutions/657.robot-return-to-origin.rs)|
 |𝐄.709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/description/) | [Rust solution](./solutions/709.to-lower-case.rs)|
 |𝐄.728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/description/) | [Rust solution](./solutions/728.self-dividing-numbers.rs)|
 |𝐄.771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/description/) | [Rust solution](./solutions/771.jewels-and-stones.rs)|
