@@ -61,4 +61,4 @@ impl Solution {
         HashSet::<String>::from_iter(words.iter().map(|w| w.chars().map(|c| mos[(c as usize) - ('a' as usize)]).collect::<String>())).len() as i32 
     }
 }
-pub struct Solution; 
+// pub structSolution; 

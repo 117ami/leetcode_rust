@@ -3,6 +3,8 @@ mod aux;
 mod question; 
 
 fn main(){
-	println!("{:?}", question::Solution::sum_zero(4));
+	let words:Vec<String> = vec!["gin".to_string(), "zen".into(), "gig".into(), "msg".into()]; 
+	println!("{:?}", question::Solution::unique_morse_representations(words));
+	println!("{}", 'a' as u32 - 97);
 }
 

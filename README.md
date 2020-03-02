@@ -9,12 +9,13 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 
 (Note: the symbols 𝐇, 𝐌, 𝐄 after each ID imply the difficulties: Hard, Medium, Easy)
 
-| #    | Title | Talk is cheap. Show me the code. | 
+| #    | Title | Talk is cheap, show me the code. | 
 | :---- | :----- | :------- | 
 |𝐄.1 | [two-sum](https://leetcode.com/problems/two-sum/description/) | [Rust solution](./solutions/1.two-sum.rs)|
 |𝐄.509 | [fibonacci-number](https://leetcode.com/problems/fibonacci-number/description/) | [Rust solution](./solutions/509.fibonacci-number.rs)|
 |𝐄.709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/description/) | [Rust solution](./solutions/709.to-lower-case.rs)|
 |𝐄.771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/description/) | [Rust solution](./solutions/771.jewels-and-stones.rs)|
+|𝐄.804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/description/) | [Rust solution](./solutions/804.unique-morse-code-words.rs)|
 |𝐄.938 | [range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/description/) | [Rust solution](./solutions/938.range-sum-of-bst.rs)|
 |𝐄.956 | [tallest-billboard](https://leetcode.com/problems/tallest-billboard/description/) | [Rust solution](./solutions/956.tallest-billboard.rs)|
 |𝐄.1009 | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/description/) | [Rust solution](./solutions/1009.complement-of-base-10-integer.rs)|
@@ -29,8 +30,4 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1351 | [count-negative-numbers-in-a-sorted-matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/) | [Rust solution](./solutions/1351.count-negative-numbers-in-a-sorted-matrix.rs)|
 |𝐄.1365 | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/) | [Rust solution](./solutions/1365.how-many-numbers-are-smaller-than-the-current-number.rs)|
 
-
-### Contact
-
-[<p align="center"><img src="media/owl.png" width="321"/></p>](mailto:ssruoz@gmail.com)
 
