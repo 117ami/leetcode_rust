@@ -52,4 +52,4 @@ impl Solution {
         a 
     }
 }
-pub struct Solution; 
+// pub structSolution; 
