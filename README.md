@@ -16,6 +16,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/description/) | [Rust solution](./solutions/709.to-lower-case.rs)|
 |𝐄.771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/description/) | [Rust solution](./solutions/771.jewels-and-stones.rs)|
 |𝐄.804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/description/) | [Rust solution](./solutions/804.unique-morse-code-words.rs)|
+|𝐄.832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/description/) | [Rust solution](./solutions/832.flipping-an-image.rs)|
 |𝐄.938 | [range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/description/) | [Rust solution](./solutions/938.range-sum-of-bst.rs)|
 |𝐄.956 | [tallest-billboard](https://leetcode.com/problems/tallest-billboard/description/) | [Rust solution](./solutions/956.tallest-billboard.rs)|
 |𝐄.1009 | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/description/) | [Rust solution](./solutions/1009.complement-of-base-10-integer.rs)|

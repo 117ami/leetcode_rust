@@ -3,8 +3,7 @@ mod aux;
 mod question; 
 
 fn main(){
-	let words:Vec<String> = vec!["gin".to_string(), "zen".into(), "gig".into(), "msg".into()]; 
-	println!("{:?}", question::Solution::unique_morse_representations(words));
-	println!("{}", 'a' as u32 - 97);
+	let a = vec![vec![1,1,0], vec![1,0,1], vec![0,0,0]];
+	println!("{:?}", question::Solution::flip_and_invert_image(a));
 }
 

@@ -52,4 +52,4 @@ impl Solution {
         a.iter().map(|row| row.iter().rev().map(|n| 1 - n).collect()).collect()
     }
 }
-pub struct Solution; 
+// pub structSolution; 
