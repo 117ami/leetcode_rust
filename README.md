@@ -13,6 +13,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 | :---- | :----- | :------- | 
 |𝐄.1 | [two-sum](https://leetcode.com/problems/two-sum/description/) | [Rust solution](./solutions/1.two-sum.rs)|
 |𝐄.509 | [fibonacci-number](https://leetcode.com/problems/fibonacci-number/description/) | [Rust solution](./solutions/509.fibonacci-number.rs)|
+|𝐄.561 | [array-partition-i](https://leetcode.com/problems/array-partition-i/description/) | [Rust solution](./solutions/561.array-partition-i.rs)|
 |𝐄.657 | [robot-return-to-origin](https://leetcode.com/problems/robot-return-to-origin/description/) | [Rust solution](./solutions/657.robot-return-to-origin.rs)|
 |𝐄.709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/description/) | [Rust solution](./solutions/709.to-lower-case.rs)|
 |𝐄.728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/description/) | [Rust solution](./solutions/728.self-dividing-numbers.rs)|
@@ -26,6 +27,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.977 | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) | [Rust solution](./solutions/977.squares-of-a-sorted-array.rs)|
 |𝐄.1009 | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/description/) | [Rust solution](./solutions/1009.complement-of-base-10-integer.rs)|
 |𝐄.1021 | [remove-outermost-parentheses](https://leetcode.com/problems/remove-outermost-parentheses/description/) | [Rust solution](./solutions/1021.remove-outermost-parentheses.rs)|
+|𝐄.1079 | [letter-tile-possibilities](https://leetcode.com/problems/array-partition-i/description/) | [Rust solution](./solutions/1079.letter-tile-possibilities.rs)|
 |𝐄.1108 | [defanging-an-ip-address](https://leetcode.com/problems/defanging-an-ip-address/description/) | [Rust solution](./solutions/1108.defanging-an-ip-address.rs)|
 |𝐄.1221 | [split-a-string-in-balanced-strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/description/) | [Rust solution](./solutions/1221.split-a-string-in-balanced-strings.rs)|
 |𝐄.1281 | [subtract-the-product-and-sum-of-digits-of-an-integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/) | [Rust solution](./solutions/1281.subtract-the-product-and-sum-of-digits-of-an-integer.rs)|

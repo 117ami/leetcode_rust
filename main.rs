@@ -2,7 +2,7 @@
 mod question; 
 
 fn main(){
-	let arr = vec![17,18,5,4,6,1];
-	println!("{:?}", question::Solution::replace_elements(arr));
+	let num = vec![1,3,2,4];
+	println!("{:?}", question::Solution::array_pair_sum(num));
 }
 
