@@ -34,6 +34,6 @@ pub fn vec_counter(arr: Vec<i32>) -> HashMap<i32, i32> {
 
 #[allow(dead_code)]
 pub fn vec_to_hashset(arr: Vec<i32>) -> HashSet<i32> {
-    arr.iter()
+   HashSet::from_iter(arr.iter().cloned())
 }
 

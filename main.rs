@@ -2,7 +2,7 @@
 mod question; 
 
 fn main(){
-	let arr = vec![1,2,2,1,1,3,2];
-	println!("{:?}", question::Solution::unique_occurrences(arr));
+	println!("{:?}", question::Solution::hamming_distance(1, 4));
+	println!("{:?}", (0 ^ 7 as i32).count_ones() as i32);
 }
 
