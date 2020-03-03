@@ -2,7 +2,7 @@
 mod question; 
 
 fn main(){
-	let s = "()))((";
-	println!("{:?}", question::Solution::min_add_to_make_valid(s.to_string()));
+	let arr = vec![1,2,2,1,1,3,2];
+	println!("{:?}", question::Solution::unique_occurrences(arr));
 }
 

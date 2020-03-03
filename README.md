@@ -31,6 +31,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1021 | [remove-outermost-parentheses](https://leetcode.com/problems/remove-outermost-parentheses/description/) | [Rust solution](./solutions/1021.remove-outermost-parentheses.rs)|
 |𝐄.1079 | [letter-tile-possibilities](https://leetcode.com/problems/array-partition-i/description/) | [Rust solution](./solutions/1079.letter-tile-possibilities.rs)|
 |𝐄.1108 | [defanging-an-ip-address](https://leetcode.com/problems/defanging-an-ip-address/description/) | [Rust solution](./solutions/1108.defanging-an-ip-address.rs)|
+|𝐄.1207 | [unique-number-of-occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/) | [Rust solution](./solutions/1207.unique-number-of-occurrences.rs)|
 |𝐄.1221 | [split-a-string-in-balanced-strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/description/) | [Rust solution](./solutions/1221.split-a-string-in-balanced-strings.rs)|
 |𝐄.1281 | [subtract-the-product-and-sum-of-digits-of-an-integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/) | [Rust solution](./solutions/1281.subtract-the-product-and-sum-of-digits-of-an-integer.rs)|
 |𝐄.1282 | [group-the-people-given-the-group-size-they-belong-to](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/) | [Rust solution](./solutions/1282.group-the-people-given-the-group-size-they-belong-to.rs)|

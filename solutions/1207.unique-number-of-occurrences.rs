@@ -49,28 +49,24 @@
 impl Solution {
     pub fn unique_occurrences(arr: Vec<i32>) -> bool {
         let eye = vec_counter(arr);
-        // vec_to_hashset(eye.values()).len() == eye.len()
-        eye.values().collect::<HashSet<_>>().len() == eye.len()
+        let mut x:HashSet<i32> = HashSet::new(); 
+        for k in eye.keys(){
+            x.insert(eye[k]);
+        }
+        eye.len() == x.len()
     }
 }
-
-pub struct Solution; 
+// pub structSolution; 
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::fmt::Debug;
 use std::hash::Hash;
-use std::iter::FromIterator;
 
 #[allow(dead_code)]
 pub fn vec_counter(arr: Vec<i32>) -> HashMap<i32, i32> {
     let mut c = HashMap::new(); 
     for n in arr { *c.entry(n).or_insert(0) += 1; }
     c 
-}
-
-#[allow(dead_code)]
-pub fn vec_to_hashset(arr: Vec<i32>) -> HashSet<i32> {
-    HashSet::from_iter(arr.iter().cloned())
 }
 
 #[allow(dead_code)]
