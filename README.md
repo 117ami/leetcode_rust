@@ -29,12 +29,13 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1108 | [defanging-an-ip-address](https://leetcode.com/problems/defanging-an-ip-address/description/) | [Rust solution](./solutions/1108.defanging-an-ip-address.rs)|
 |𝐄.1221 | [split-a-string-in-balanced-strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/description/) | [Rust solution](./solutions/1221.split-a-string-in-balanced-strings.rs)|
 |𝐄.1281 | [subtract-the-product-and-sum-of-digits-of-an-integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/) | [Rust solution](./solutions/1281.subtract-the-product-and-sum-of-digits-of-an-integer.rs)|
+|𝐄.1282 | [group-the-people-given-the-group-size-they-belong-to](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/) | [Rust solution](./solutions/1282.group-the-people-given-the-group-size-they-belong-to.rs)|
 |𝐄.1290 | [convert-binary-number-in-a-linked-list-to-integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/) | [Rust solution](./solutions/1290.convert-binary-number-in-a-linked-list-to-integer.rs)|
 |𝐄.1295 | [find-numbers-with-even-number-of-digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/) | [Rust solution](./solutions/1295.find-numbers-with-even-number-of-digits.rs)|
 |𝐄.1304 | [find-n-unique-integers-sum-up-to-zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description/) | [Rust solution](./solutions/1304.find-n-unique-integers-sum-up-to-zero.rs)|
 |𝐄.1313 | [decompress-run-length-encoded-list](https://leetcode.com/problems/decompress-run-length-encoded-list/description/) | [Rust solution](./solutions/1313.decompress-run-length-encoded-list.rs)|
 |𝐄.1342 | [number-of-steps-to-reduce-a-number-to-zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/) | [Rust solution](./solutions/1342.number-of-steps-to-reduce-a-number-to-zero.rs)|
 |𝐄.1351 | [count-negative-numbers-in-a-sorted-matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/) | [Rust solution](./solutions/1351.count-negative-numbers-in-a-sorted-matrix.rs)|
-|𝐄.1365 | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/) | [Rust solution](./solutions/1365.how-many-numbers-are-smaller-than-the-current-number.rs)|
+|𝐄.1365 | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/remove-outermost-parentheses/description/) | [Rust solution](./solutions/1365.how-many-numbers-are-smaller-than-the-current-number.rs)|
 
 

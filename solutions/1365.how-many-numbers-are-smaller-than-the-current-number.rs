@@ -1,75 +1,96 @@
 /*
- * @lc app=leetcode id=1365 lang=rust
+ * @lc app=leetcode id=1021 lang=rust
  *
- * [1365] How Many Numbers Are Smaller Than the Current Number
+ * [1021] Remove Outermost Parentheses
  *
- * https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
+ * https://leetcode.com/problems/remove-outermost-parentheses/description/
  *
  * algorithms
- * Easy (87.64%)
- * Total Accepted:    7.8K
- * Total Submissions: 8.9K
- * Testcase Example:  '[8,1,2,2,3]'
+ * Easy (76.58%)
+ * Total Accepted:    69.1K
+ * Total Submissions: 90.2K
+ * Testcase Example:  '"(()())(())"'
  *
- * Given the array nums, for each nums[i] find out how many numbers in the
- * array are smaller than it. That is, for each nums[i] you have to count the
- * number of valid j's such that j != i and nums[j] < nums[i].
+ * A valid parentheses string is either empty (""), "(" + A + ")", or A + B,
+ * where A and B are valid parentheses strings, and + represents string
+ * concatenation.  For example, "", "()", "(())()", and "(()(()))" are all
+ * valid parentheses strings.
  * 
- * Return the answer in an array.
+ * A valid parentheses string S is primitive if it is nonempty, and there does
+ * not exist a way to split it into S = A+B, with A and B nonempty valid
+ * parentheses strings.
+ * 
+ * Given a valid parentheses string S, consider its primitive decomposition: S
+ * = P_1 + P_2 + ... + P_k, where P_i are primitive valid parentheses strings.
+ * 
+ * Return S after removing the outermost parentheses of every primitive string
+ * in the primitive decomposition of S.
+ * 
  * 
  * 
  * Example 1:
  * 
  * 
- * Input: nums = [8,1,2,2,3]
- * Output: [4,0,1,1,3]
+ * Input: "(()())(())"
+ * Output: "()()()"
  * Explanation: 
- * For nums[0]=8 there exist four smaller numbers than it (1, 2, 2 and 3). 
- * For nums[1]=1 does not exist any smaller number than it.
- * For nums[2]=2 there exist one smaller number than it (1). 
- * For nums[3]=2 there exist one smaller number than it (1). 
- * For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
+ * The input string is "(()())(())", with primitive decomposition "(()())" +
+ * "(())".
+ * After removing outer parentheses of each part, this is "()()" + "()" =
+ * "()()()".
+ * 
  * 
  * 
  * Example 2:
  * 
  * 
- * Input: nums = [6,5,4,8]
- * Output: [2,1,0,3]
+ * Input: "(()())(())(()(()))"
+ * Output: "()()()()(())"
+ * Explanation: 
+ * The input string is "(()())(())(()(()))", with primitive decomposition
+ * "(()())" + "(())" + "(()(()))".
+ * After removing outer parentheses of each part, this is "()()" + "()" +
+ * "()(())" = "()()()()(())".
+ * 
  * 
  * 
  * Example 3:
  * 
  * 
- * Input: nums = [7,7,7,7]
- * Output: [0,0,0,0]
+ * Input: "()()"
+ * Output: ""
+ * Explanation: 
+ * The input string is "()()", with primitive decomposition "()" + "()".
+ * After removing outer parentheses of each part, this is "" + "" = "".
  * 
  * 
  * 
- * Constraints:
  * 
  * 
- * 2 <= nums.length <= 500
- * 0 <= nums[i] <= 100
+ * 
+ * Note:
+ * 
+ * 
+ * S.length <= 10000
+ * S[i] is "(" or ")"
+ * S is a valid parentheses string
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
  * 
  */
-
-use std::collections::HashMap;
 impl Solution {
-    pub fn smaller_numbers_than_current(nums: Vec<i32>) -> Vec<i32> {
-        let mut copy = nums.clone(); 
-        copy.sort(); 
-        let mut map = HashMap::new(); 
-        for (i, n) in copy.iter().enumerate() {
-            if !map.contains_key(n) {
-                map.insert(n, i);
-            }
+    pub fn remove_outer_parentheses(s: String) -> String {
+        let mut res:String = "".into(); 
+        let mut cter = 0; 
+        for c in s.chars(){
+            if c == ')' { cter -= 1;}
+            if cter > 0 { res.push(c);}
+            if c == '(' { cter += 1; }
         }
-        let mut res = vec![];
-        for n in nums {
-            res.push(map[&n] as i32);
-        }
-        // println!("{:?}", nums.clone());
         res 
     }
 }

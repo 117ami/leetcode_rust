@@ -3,9 +3,8 @@ mod aux;
 mod question; 
 
 fn main(){
-	// let s = "(()())(())";
-	let mut s = "(()())(())(()(()))";
-	s = "()()";
-	println!("{:?}", question::Solution::remove_outer_parentheses(s.to_string()));
+	let mut gs = vec![2,1,2];
+	gs = vec![2,1,3,3,3,2];
+	println!("{:?}", question::Solution::group_the_people(gs));
 }
 
