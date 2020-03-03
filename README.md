@@ -35,6 +35,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1304 | [find-n-unique-integers-sum-up-to-zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description/) | [Rust solution](./solutions/1304.find-n-unique-integers-sum-up-to-zero.rs)|
 |𝐄.1313 | [decompress-run-length-encoded-list](https://leetcode.com/problems/decompress-run-length-encoded-list/description/) | [Rust solution](./solutions/1313.decompress-run-length-encoded-list.rs)|
 |𝐄.1342 | [number-of-steps-to-reduce-a-number-to-zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/) | [Rust solution](./solutions/1342.number-of-steps-to-reduce-a-number-to-zero.rs)|
+|𝐄.1347 | [minimum-number-of-steps-to-make-two-strings-anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/description/) | [Rust solution](./solutions/1347.minimum-number-of-steps-to-make-two-strings-anagram.rs)|
 |𝐄.1351 | [count-negative-numbers-in-a-sorted-matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/) | [Rust solution](./solutions/1351.count-negative-numbers-in-a-sorted-matrix.rs)|
 |𝐄.1365 | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/remove-outermost-parentheses/description/) | [Rust solution](./solutions/1365.how-many-numbers-are-smaller-than-the-current-number.rs)|
 

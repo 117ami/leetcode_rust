@@ -65,8 +65,9 @@ rust_file=$(ls -t *.rs | head -n 1)
 
 cp $rust_file question.rs 
 echo "pub struct Solution; " >> question.rs 
+cat aux.rs >> question.rs 
 
-method=$(cat $rust_file | grep fn | awk '{print $3}' | cut -d "(" -f 1)
+method=$(cat $rust_file | grep fn | head -n 1 | awk '{print $3}' | cut -d "(" -f 1)
 echo "
 mod aux; 
 mod question; 
