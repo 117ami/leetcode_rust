@@ -15,7 +15,6 @@ pub fn say_vec(nums: Vec<i32>){
 }
 
 #[allow(dead_code)]
-use std::collections::HashMap;
 pub fn char_frequency(s: String) -> HashMap<char, i32> {
     let mut res:HashMap<char, i32> = HashMap::new(); 
     for c in s.chars(){

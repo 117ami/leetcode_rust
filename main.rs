@@ -2,8 +2,7 @@
 mod question; 
 
 fn main(){
-	let s= "leetcode"; 
-	let t = "practice";
-	println!("{:?}", question::Solution::min_steps(s.to_string(), t.to_string()));
+	let arr = vec![17,18,5,4,6,1];
+	println!("{:?}", question::Solution::replace_elements(arr));
 }
 

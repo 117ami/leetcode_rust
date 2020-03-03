@@ -69,7 +69,6 @@ cat aux.rs >> question.rs
 
 method=$(cat $rust_file | grep fn | head -n 1 | awk '{print $3}' | cut -d "(" -f 1)
 echo "
-mod aux; 
 mod question; 
 
 fn main(){
