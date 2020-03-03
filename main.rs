@@ -2,6 +2,7 @@
 mod question; 
 
 fn main(){
-	println!("{:?}", question::RecentCounter::ping(0));
+	let s = "()))((";
+	println!("{:?}", question::Solution::min_add_to_make_valid(s.to_string()));
 }
 

@@ -94,7 +94,7 @@ impl Solution {
         res 
     }
 }
-pub struct Solution; 
+// pub structSolution; 
 use std::collections::HashMap;
 use std::fmt::Debug;
 use std::hash::Hash;
