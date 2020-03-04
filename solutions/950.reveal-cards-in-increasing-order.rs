@@ -80,11 +80,12 @@ impl Solution {
             vd.pop_back(); 
             vd.push_front(deck[i]);
         }
+        println!("{:?}", vd);
         Vec::from(vd)
         // deck
     }
 }
-pub struct Solution; 
+// pub structSolution; 
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::fmt::Debug;
