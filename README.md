@@ -25,6 +25,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) | [Rust solution](./solutions/852.peak-index-in-a-mountain-array.rs)|
 |𝐄.905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/description/) | [Rust solution](./solutions/905.sort-array-by-parity.rs)|
 |𝐄.921 | [minimum-add-to-make-parentheses-valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/) | [Rust solution](./solutions/921.minimum-add-to-make-parentheses-valid.rs)|
+|𝐄.922 | [sort-array-by-parity-ii](https://leetcode.com/problems/sort-array-by-parity-ii/description/) | [Rust solution](./solutions/922.sort-array-by-parity-ii.rs)|
 |𝐄.933 | [number-of-recent-calls](https://leetcode.com/problems/number-of-recent-calls/description/) | [Rust solution](./solutions/933.number-of-recent-calls.rs)|
 |𝐄.938 | [range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/description/) | [Rust solution](./solutions/938.range-sum-of-bst.rs)|
 |𝐄.942 | [di-string-match](https://leetcode.com/problems/di-string-match/description/) | [Rust solution](./solutions/942.di-string-match.rs)|
