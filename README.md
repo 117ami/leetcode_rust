@@ -49,6 +49,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1342 | [number-of-steps-to-reduce-a-number-to-zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/) | [Rust solution](./solutions/1342.number-of-steps-to-reduce-a-number-to-zero.rs)|
 |𝐄.1347 | [minimum-number-of-steps-to-make-two-strings-anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/description/) | [Rust solution](./solutions/1347.minimum-number-of-steps-to-make-two-strings-anagram.rs)|
 |𝐄.1351 | [count-negative-numbers-in-a-sorted-matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/) | [Rust solution](./solutions/1351.count-negative-numbers-in-a-sorted-matrix.rs)|
+|𝐄.1356 | [sort-integers-by-the-number-of-1-bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/) | [Rust solution](./solutions/1356.sort-integers-by-the-number-of-1-bits.rs)|
 |𝐄.1361 | [validate-binary-tree-nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/) | [Rust solution](./solutions/1361.validate-binary-tree-nodes.rs)|
 |𝐄.1365 | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/remove-outermost-parentheses/description/) | [Rust solution](./solutions/1365.how-many-numbers-are-smaller-than-the-current-number.rs)|
 

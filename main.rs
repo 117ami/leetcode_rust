@@ -2,9 +2,7 @@
 mod question; 
 
 fn main(){
-	let n = 4; 
-	let lc = vec![1,-1,3,-1];
-	let rc = vec![2,-1,-1,-1];
-	println!("{:?}", question::Solution::validate_binary_tree_nodes(n, lc, rc)); 
+	let a = vec![0,1,2,3,4,5,6,7,16,8];
+	println!("{:?}", question::Solution::sort_by_bits(a));
 }
 
