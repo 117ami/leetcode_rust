@@ -2,9 +2,9 @@
 mod question; 
 
 fn main(){
-	// let ip = vec!["cba".to_string(),"daf".into(),"ghi".into()];
-	// let ip = vec!["zyx".to_string(),"wvu".into(),"tsr".into()];
-	let ip = vec!["rrjk".to_string(),"furt".into(),"guzm".into()];
-	println!("{:?}", question::Solution::min_deletion_size(ip));
+	let n = 4; 
+	let lc = vec![1,-1,3,-1];
+	let rc = vec![2,-1,-1,-1];
+	println!("{:?}", question::Solution::validate_binary_tree_nodes(n, lc, rc)); 
 }
 

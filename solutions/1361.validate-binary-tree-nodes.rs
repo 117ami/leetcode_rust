@@ -83,7 +83,7 @@ impl Solution {
         root_number == 1 
     }
 }
-pub struct Solution; 
+// pub structSolution; 
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::collections::VecDeque;
