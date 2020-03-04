@@ -28,6 +28,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.933 | [number-of-recent-calls](https://leetcode.com/problems/number-of-recent-calls/description/) | [Rust solution](./solutions/933.number-of-recent-calls.rs)|
 |𝐄.938 | [range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/description/) | [Rust solution](./solutions/938.range-sum-of-bst.rs)|
 |𝐄.942 | [di-string-match](https://leetcode.com/problems/di-string-match/description/) | [Rust solution](./solutions/942.di-string-match.rs)|
+|𝐄.944 | [delete-columns-to-make-sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/) | [Rust solution](./solutions/944.delete-columns-to-make-sorted.rs)|
 |𝐄.950 | [reveal-cards-in-increasing-order](https://leetcode.com/problems/reveal-cards-in-increasing-order/description/) | [Rust solution](./solutions/950.reveal-cards-in-increasing-order.rs)|
 |𝐄.956 | [tallest-billboard](https://leetcode.com/problems/tallest-billboard/description/) | [Rust solution](./solutions/956.tallest-billboard.rs)|
 |𝐄.961 | [n-repeated-element-in-size-2n-array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/description/) | [Rust solution](./solutions/961.n-repeated-element-in-size-2n-array.rs)|

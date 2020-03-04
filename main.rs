@@ -2,7 +2,9 @@
 mod question; 
 
 fn main(){
-	let mt = vec![0,1,0];
-	println!("{:?}", question::Solution::peak_index_in_mountain_array(mt));
+	// let ip = vec!["cba".to_string(),"daf".into(),"ghi".into()];
+	// let ip = vec!["zyx".to_string(),"wvu".into(),"tsr".into()];
+	let ip = vec!["rrjk".to_string(),"furt".into(),"guzm".into()];
+	println!("{:?}", question::Solution::min_deletion_size(ip));
 }
 

@@ -79,6 +79,7 @@ impl Solution {
         for i in 0..a[0].len() {
             for j in 0..a.len() - 1 {
                 if a[j].as_bytes()[i] > a[j+1].as_bytes()[i] {
+                    // println!("{:?}", (a[j].chars().nth(i).unwrap(), a[j+1].chars().nth(i).unwrap()));
                     d += 1; 
                     break 
                 }
@@ -87,7 +88,7 @@ impl Solution {
         d
     }
 }
-pub struct Solution; 
+// pub structSolution; 
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::fmt::Debug;
