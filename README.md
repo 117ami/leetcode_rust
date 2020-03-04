@@ -22,6 +22,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/description/) | [Rust solution](./solutions/771.jewels-and-stones.rs)|
 |𝐄.804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/description/) | [Rust solution](./solutions/804.unique-morse-code-words.rs)|
 |𝐄.832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/description/) | [Rust solution](./solutions/832.flipping-an-image.rs)|
+|𝐄.852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) | [Rust solution](./solutions/852.peak-index-in-a-mountain-array.rs)|
 |𝐄.905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/description/) | [Rust solution](./solutions/905.sort-array-by-parity.rs)|
 |𝐄.921 | [minimum-add-to-make-parentheses-valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/) | [Rust solution](./solutions/921.minimum-add-to-make-parentheses-valid.rs)|
 |𝐄.933 | [number-of-recent-calls](https://leetcode.com/problems/number-of-recent-calls/description/) | [Rust solution](./solutions/933.number-of-recent-calls.rs)|
