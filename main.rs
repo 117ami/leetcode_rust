@@ -2,7 +2,7 @@
 mod question; 
 
 fn main(){
-	let a = vec![4,3,9,8];
-	println!("{:?}", question::Solution::sort_array_by_parity_ii(a));
+	let s = "()()";
+	println!("{:?}", question::Solution::max_depth_after_split(s.to_string()));
 }
 
