@@ -36,6 +36,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.977 | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) | [Rust solution](./solutions/977.squares-of-a-sorted-array.rs)|
 |𝐄.1009 | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/description/) | [Rust solution](./solutions/1009.complement-of-base-10-integer.rs)|
 |𝐄.1021 | [remove-outermost-parentheses](https://leetcode.com/problems/remove-outermost-parentheses/description/) | [Rust solution](./solutions/1021.remove-outermost-parentheses.rs)|
+|𝐄.1051 | [height-checker](https://leetcode.com/problems/height-checker/description/) | [Rust solution](./solutions/1051.height-checker.rs)|
 |𝐄.1079 | [letter-tile-possibilities](https://leetcode.com/problems/array-partition-i/description/) | [Rust solution](./solutions/1079.letter-tile-possibilities.rs)|
 |𝐄.1108 | [defanging-an-ip-address](https://leetcode.com/problems/defanging-an-ip-address/description/) | [Rust solution](./solutions/1108.defanging-an-ip-address.rs)|
 |𝐄.1111 | [maximum-nesting-depth-of-two-valid-parentheses-strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/description/) | [Rust solution](./solutions/1111.maximum-nesting-depth-of-two-valid-parentheses-strings.rs)|
