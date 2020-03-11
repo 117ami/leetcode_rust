@@ -2,8 +2,7 @@
 mod question; 
 
 fn main(){
-	// let mat = vec![vec![1,1,0,0], vec![1,0,0,0], vec![1,1,1,0]];
-	let mat = vec![vec![1,1,0,0,0],vec![1,1,1,1,0],vec![1,0,0,0,0],vec![1,1,0,0,0],vec![1,1,1,1,1]];
-	println!("{:?}", question::Solution::k_weakest_rows(mat, 3));
+	let light = vec![2,1,4,3,6,5];
+	println!("{:?}", question::Solution::num_times_all_blue(light));
 }
 

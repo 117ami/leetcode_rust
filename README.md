@@ -56,5 +56,6 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1356 | [sort-integers-by-the-number-of-1-bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/) | [Rust solution](./solutions/1356.sort-integers-by-the-number-of-1-bits.rs)|
 |𝐄.1361 | [validate-binary-tree-nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/) | [Rust solution](./solutions/1361.validate-binary-tree-nodes.rs)|
 |𝐄.1365 | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/remove-outermost-parentheses/description/) | [Rust solution](./solutions/1365.how-many-numbers-are-smaller-than-the-current-number.rs)|
+|𝐄.1375 | [bulb-switcher-iii](https://leetcode.com/problems/bulb-switcher-iii/description/) | [Rust solution](./solutions/1375.bulb-switcher-iii.rs)|
 
 
