@@ -2,7 +2,8 @@
 mod question; 
 
 fn main(){
-	let light = vec![2,1,4,3,6,5];
-	println!("{:?}", question::Solution::num_times_all_blue(light));
+	let n = 4;
+	println!("{:?}", question::Solution::generate_the_string(n));
+	let s = std::iter::repeat("a").take(10).collect::<String>() + "b";
 }
 
