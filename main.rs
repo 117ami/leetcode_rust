@@ -1,9 +1,8 @@
+mod question;
 
-mod question; 
-
-fn main(){
-	let n = 4;
-	println!("{:?}", question::Solution::generate_the_string(n));
-	let s = std::iter::repeat("a").take(10).collect::<String>() + "b";
+fn main() {
+    let s = "aaaabbbbcccc";
+    println!("{:?}", question::Solution::sort_string(s.to_string()));
+    // println!("{:?}", 'a' as usize);
+    // println!("{:?}", 97 as char);
 }
-

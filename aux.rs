@@ -4,8 +4,8 @@ use std::collections::HashSet;
 use std::fmt::Debug;
 use std::hash::Hash;
 use std::iter::FromIterator;
-use std::collections::VecDeque; 
-use std::collections::BTreeMap; 
+// use std::collections::VecDeque; 
+// use std::collections::BTreeMap; 
 
 #[allow(dead_code)]
 pub fn print_map<K: Debug + Eq + Hash, V: Debug>(map: &HashMap<K, V>) {
@@ -40,3 +40,9 @@ pub fn vec_to_hashset(arr: Vec<i32>) -> HashSet<i32> {
    HashSet::from_iter(arr.iter().cloned())
 }
 
+#[allow(dead_code)]
+pub fn int_to_char(n: i32) -> char {
+    // Convert number 0 to a, 1 to b, ...
+    assert!(n >= 0 && n <= 25);
+    (n as u8 + 'a' as u8) as char
+}
