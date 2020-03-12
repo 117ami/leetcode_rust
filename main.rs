@@ -1,8 +1,9 @@
 mod question;
 
 fn main() {
-    let s = "aaaabbbbcccc";
-    println!("{:?}", question::Solution::sort_string(s.to_string()));
-    // println!("{:?}", 'a' as usize);
-    // println!("{:?}", 97 as char);
+    let s = "leetcodeisgreat";
+    println!(
+        "{:?}",
+        question::Solution::find_the_longest_substring(s.to_string())
+    );
 }

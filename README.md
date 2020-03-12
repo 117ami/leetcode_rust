@@ -57,6 +57,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1361 | [validate-binary-tree-nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/) | [Rust solution](./solutions/1361.validate-binary-tree-nodes.rs)|
 |𝐄.1365 | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/remove-outermost-parentheses/description/) | [Rust solution](./solutions/1365.how-many-numbers-are-smaller-than-the-current-number.rs)|
 |𝐄.1370 | [increasing-decreasing-string](https://leetcode.com/problems/increasing-decreasing-string/description/) | [Rust solution](./solutions/1370.increasing-decreasing-string.rs)|
+|𝐄.1371 | [find-the-longest-substring-containing-vowels-in-even-counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/) | [Rust solution](./solutions/1371.find-the-longest-substring-containing-vowels-in-even-counts.rs)|
 |𝐄.1374 | [generate-a-string-with-characters-that-have-odd-counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/description/) | [Rust solution](./solutions/1374.generate-a-string-with-characters-that-have-odd-counts.rs)|
 |𝐄.1375 | [bulb-switcher-iii](https://leetcode.com/problems/bulb-switcher-iii/description/) | [Rust solution](./solutions/1375.bulb-switcher-iii.rs)|
 
