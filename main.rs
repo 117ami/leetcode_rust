@@ -2,7 +2,8 @@
 mod question; 
 
 fn main(){
-	let mt = vec![vec![3,7,8],vec![9,11,13],vec![15,16,17]];
-	println!("{:?}", question::Solution::lucky_numbers(mt));
+	// let v = vec!["abc".to_string(),"deq".into(),"mee".into(),"aqq".into(),"dkd".into(),"ccc".into()];
+	let v = vec!["ef".to_string(),"fq".into(),"ao".into(),"at".into(),"lx".into()];
+	println!("{:?}", question::Solution::find_and_replace_pattern(v, "ya".to_string()));
 }
 

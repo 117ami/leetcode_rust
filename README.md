@@ -23,6 +23,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/description/) | [Rust solution](./solutions/804.unique-morse-code-words.rs)|
 |𝐄.832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/description/) | [Rust solution](./solutions/832.flipping-an-image.rs)|
 |𝐄.852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) | [Rust solution](./solutions/852.peak-index-in-a-mountain-array.rs)|
+|𝐄.890 | [find-and-replace-pattern](https://leetcode.com/problems/find-and-replace-pattern/description/) | [Rust solution](./solutions/890.find-and-replace-pattern.rs)|
 |𝐄.905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/description/) | [Rust solution](./solutions/905.sort-array-by-parity.rs)|
 |𝐄.921 | [minimum-add-to-make-parentheses-valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/) | [Rust solution](./solutions/921.minimum-add-to-make-parentheses-valid.rs)|
 |𝐄.922 | [sort-array-by-parity-ii](https://leetcode.com/problems/sort-array-by-parity-ii/description/) | [Rust solution](./solutions/922.sort-array-by-parity-ii.rs)|
@@ -55,7 +56,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1351 | [count-negative-numbers-in-a-sorted-matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/) | [Rust solution](./solutions/1351.count-negative-numbers-in-a-sorted-matrix.rs)|
 |𝐄.1356 | [sort-integers-by-the-number-of-1-bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/) | [Rust solution](./solutions/1356.sort-integers-by-the-number-of-1-bits.rs)|
 |𝐄.1361 | [validate-binary-tree-nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/) | [Rust solution](./solutions/1361.validate-binary-tree-nodes.rs)|
-|𝐄.1365 | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/remove-outermost-parentheses/description/) | [Rust solution](./solutions/1365.how-many-numbers-are-smaller-than-the-current-number.rs)|
+|𝐄.1365 | [how-many-numbers-are-smaller-than-the-current-number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/) | [Rust solution](./solutions/1365.how-many-numbers-are-smaller-than-the-current-number.rs)|
 |𝐄.1370 | [increasing-decreasing-string](https://leetcode.com/problems/increasing-decreasing-string/description/) | [Rust solution](./solutions/1370.increasing-decreasing-string.rs)|
 |𝐄.1371 | [find-the-longest-substring-containing-vowels-in-even-counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/) | [Rust solution](./solutions/1371.find-the-longest-substring-containing-vowels-in-even-counts.rs)|
 |𝐄.1374 | [generate-a-string-with-characters-that-have-odd-counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/description/) | [Rust solution](./solutions/1374.generate-a-string-with-characters-that-have-odd-counts.rs)|
