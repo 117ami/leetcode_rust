@@ -2,9 +2,8 @@
 mod question; 
 
 fn main(){
-	let mut s = vec!['a', 'b', 'c'];
-	s = vec![];
-	question::Solution::reverse_string(&mut s);
-	println!("{:?}", s);
+	let n = 2; let m = 3; 
+	let ids = vec![vec![0, 1], vec![1, 1]];
+	println!("{:?}", question::Solution::odd_cells(n, m, ids));
 }
 
