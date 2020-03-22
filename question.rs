@@ -1,88 +1,38 @@
 /*
- * @lc app=leetcode id=941 lang=rust
+ * @lc app=leetcode id=1287 lang=rust
  *
- * [941] Valid Mountain Array
+ * [1287] Element Appearing More Than 25% In Sorted Array
  *
- * https://leetcode.com/problems/valid-mountain-array/description/
+ * https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/description/
  *
  * algorithms
- * Easy (35.50%)
- * Total Accepted:    37.8K
- * Total Submissions: 106.4K
- * Testcase Example:  '[2,1]'
+ * Easy (60.00%)
+ * Total Accepted:    12.6K
+ * Total Submissions: 21.1K
+ * Testcase Example:  '[1,2,2,6,6,6,6,7,10]'
  *
- * Given an array A of integers, return true if and only if it is a valid
- * mountain array.
+ * Given an integer array sorted in non-decreasing order, there is exactly one
+ * integer in the array that occurs more than 25% of the time.
  * 
- * Recall that A is a mountain array if and only if:
- * 
- * 
- * A.length >= 3
- * There exists some i with 0 < i < A.length - 1 such that:
- * 
- * A[0] < A[1] < ... A[i-1] < A[i] 
- * A[i] > A[i+1] > ... > A[A.length - 1]
- * 
- * 
- * 
- * 
- * 
- * 
- * 
+ * Return that integer.
  * 
  * 
  * Example 1:
+ * Input: arr = [1,2,2,6,6,6,6,7,10]
+ * Output: 6
  * 
  * 
- * Input: [2,1]
- * Output: false
+ * Constraints:
  * 
  * 
- * 
- * Example 2:
- * 
- * 
- * Input: [3,5,5]
- * Output: false
- * 
- * 
- * 
- * Example 3:
- * 
- * 
- * Input: [0,3,2,1]
- * Output: true
- * 
- * 
- * 
- * 
- * 
- * Note:
- * 
- * 
- * 0 <= A.length <= 10000
- * 0 <= A[i] <= 10000 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
+ * 1 <= arr.length <= 10^4
+ * 0 <= arr[i] <= 10^5
  * 
  */
 impl Solution {
-    pub fn valid_mountain_array(a: Vec<i32>) -> bool {
-        if a.len() < 3 { return false ;}
-        let mut up:bool = true; 
-        let mut pivot = i32::max_value();
-        for i in 1..a.len() {
-            if a[i] == a[i-1] { return false; }
-            if a[i] > a[i-1] && !up { return false; }
-            if a[i] < a[i-1] { up = false; pivot = std::cmp::min(pivot, (i-1) as i32); }
-        }
-        up == false && pivot > 0
+    pub fn find_special_integer(arr: Vec<i32>) -> i32 {
+        let k = arr.len() / 4;
+        *arr.iter().zip(arr.iter().skip(k)).filter(|(x, y)| x == y).next().unwrap().0
     }
 }
 
