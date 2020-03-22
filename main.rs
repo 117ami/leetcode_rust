@@ -2,7 +2,8 @@
 mod question; 
 
 fn main(){
-	let a = vec![1,2,4,5];
-	println!("{:?}", question::Solution::is_monotonic(a));
+	let nums = vec![0,1,2,3,4]; 
+	let index = vec![0,1,2,2,1];
+	println!("{:?}", question::Solution::create_target_array(nums, index));
 }
 

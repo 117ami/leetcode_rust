@@ -67,5 +67,6 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1374 | [generate-a-string-with-characters-that-have-odd-counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/description/) | [Rust solution](./solutions/1374.generate-a-string-with-characters-that-have-odd-counts.rs)|
 |𝐄.1375 | [bulb-switcher-iii](https://leetcode.com/problems/bulb-switcher-iii/description/) | [Rust solution](./solutions/1375.bulb-switcher-iii.rs)|
 |𝐄.1380 | [lucky-numbers-in-a-matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/) | [Rust solution](./solutions/1380.lucky-numbers-in-a-matrix.rs)|
+|𝐄.1389 | [create-target-array-in-the-given-order](https://leetcode.com/problems/create-target-array-in-the-given-order/description/) | [Rust solution](./solutions/1389.create-target-array-in-the-given-order.rs)|
 
 
