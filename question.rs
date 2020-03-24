@@ -1,90 +1,71 @@
 /*
- * @lc app=leetcode id=1385 lang=rust
+ * @lc app=leetcode id=1365 lang=rust
  *
- * [1385] Find the Distance Value Between Two Arrays
+ * [1365] How Many Numbers Are Smaller Than the Current Number
  *
- * https://leetcode.com/problems/find-the-distance-value-between-two-arrays/description/
+ * https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
  *
  * algorithms
- * Easy (72.11%)
- * Total Accepted:    5.1K
- * Total Submissions: 7.1K
- * Testcase Example:  '[4,5,8]\n[10,9,1,8]\n2'
+ * Easy (85.26%)
+ * Total Accepted:    29.6K
+ * Total Submissions: 34.7K
+ * Testcase Example:  '[8,1,2,2,3]'
  *
- * Given two integer arrays arr1 and arr2, and the integer d, return the
- * distance value between the two arrays.
+ * Given the array nums, for each nums[i] find out how many numbers in the
+ * array are smaller than it. That is, for each nums[i] you have to count the
+ * number of valid j's such that j != i and nums[j] < nums[i].
  * 
- * The distance value is defined as the number of elements arr1[i] such that
- * there is not any element arr2[j] where |arr1[i]-arr2[j]| <= d.
+ * Return the answer in an array.
  * 
  * 
  * Example 1:
  * 
  * 
- * Input: arr1 = [4,5,8], arr2 = [10,9,1,8], d = 2
- * Output: 2
+ * Input: nums = [8,1,2,2,3]
+ * Output: [4,0,1,1,3]
  * Explanation: 
- * For arr1[0]=4 we have: 
- * |4-10|=6 > d=2 
- * |4-9|=5 > d=2 
- * |4-1|=3 > d=2 
- * |4-8|=4 > d=2 
- * For arr1[1]=5 we have: 
- * |5-10|=5 > d=2 
- * |5-9|=4 > d=2 
- * |5-1|=4 > d=2 
- * |5-8|=3 > d=2
- * For arr1[2]=8 we have:
- * |8-10|=2 <= d=2
- * |8-9|=1 <= d=2
- * |8-1|=7 > d=2
- * |8-8|=0 <= d=2
+ * For nums[0]=8 there exist four smaller numbers than it (1, 2, 2 and 3). 
+ * For nums[1]=1 does not exist any smaller number than it.
+ * For nums[2]=2 there exist one smaller number than it (1). 
+ * For nums[3]=2 there exist one smaller number than it (1). 
+ * For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
  * 
  * 
  * Example 2:
  * 
  * 
- * Input: arr1 = [1,4,2,3], arr2 = [-4,-3,6,10,20,30], d = 3
- * Output: 2
+ * Input: nums = [6,5,4,8]
+ * Output: [2,1,0,3]
  * 
  * 
  * Example 3:
  * 
  * 
- * Input: arr1 = [2,1,100,3], arr2 = [-5,-2,10,-3,7], d = 6
- * Output: 1
+ * Input: nums = [7,7,7,7]
+ * Output: [0,0,0,0]
  * 
  * 
  * 
  * Constraints:
  * 
  * 
- * 1 <= arr1.length, arr2.length <= 500
- * -10^3 <= arr1[i], arr2[j] <= 10^3
- * 0 <= d <= 100
+ * 2 <= nums.length <= 500
+ * 0 <= nums[i] <= 100
  * 
  */
-
-//  pub fn bisect_left(arr: &Vec<i32>, target: i32) -> usize {
-//     let (mut lo, mut hi) = (0, arr.len() - 1);
-//     let mut mid = 0; 
-//     while lo < hi {
-//         mid = (lo + hi) >> 1; 
-//         if arr[mid as usize] >= target { hi = mid; }
-//         else { lo = mid + 1; }
-//     }
-//     lo 
-//  }
-
 impl Solution {
-    pub fn find_the_distance_value(arr1: Vec<i32>, arr2: Vec<i32>, d: i32) -> i32 {
-        let mut res = 0; 
-        for n in arr1.iter() {
-            if !arr2.iter().any(|m| (m - n).abs() <= d) {
-                res += 1;
-            }
+    pub fn smaller_numbers_than_current(nums: Vec<i32>) -> Vec<i32> {
+        let mut cns:Vec<i32> = nums.to_vec();
+        cns.sort();
+
+        let mut hm: HashMap<i32, i32> = HashMap::new();
+        for (i, n) in cns.iter().enumerate(){
+            if !hm.contains_key(n) { hm.insert(*n, i as i32); }
         }
-        res
+        // let res:Vec<i32> =
+        nums.iter().map(|n| hm[n]).collect::<Vec<i32>>()
+        // println!("{:?}", res);
+        // nums
     }
 }
 
@@ -137,4 +118,38 @@ pub fn int_to_char(n: i32) -> char {
     // Convert number 0 to a, 1 to b, ...
     assert!(n >= 0 && n <= 25);
     (n as u8 + 'a' as u8) as char
+}
+
+#[allow(dead_code)]
+fn sayi32(i: i32) {
+	println!("{}", i);
+}
+
+#[allow(dead_code)]
+fn sayi32_arr(arr: &Vec<i32>) {
+	println!("{:?}", arr);
+}
+
+#[allow(dead_code)]
+pub fn bisect_left(arr: &Vec<i32>, target: i32) -> usize {
+    let (mut lo, mut hi) = (0, arr.len() - 1);
+    let mut mid;
+    while lo < hi {
+        mid = (lo + hi) >> 1; 
+        if arr[mid as usize] >= target { hi = mid; }
+        else { lo = mid + 1; }
+    }
+    lo 
+ }
+
+ #[allow(dead_code)]
+pub fn bisect_right(arr: &Vec<i32>, target: i32) -> usize {
+    let (mut lo, mut hi) = (0, arr.len() - 1);
+    let mut mid;
+    while lo < hi {
+        mid = (lo + hi + 1) >> 1; 
+        if arr[mid as usize] > target { hi = mid - 1; }
+        else { lo = mid; }
+    }
+    if arr[hi] > target { hi } else {hi + 1}
 }

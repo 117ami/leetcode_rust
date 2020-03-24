@@ -6,9 +6,9 @@
  * https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
  *
  * algorithms
- * Easy (85.57%)
- * Total Accepted:    24.1K
- * Total Submissions: 28.2K
+ * Easy (85.26%)
+ * Total Accepted:    29.6K
+ * Total Submissions: 34.7K
  * Testcase Example:  '[8,1,2,2,3]'
  *
  * Given the array nums, for each nums[i] find out how many numbers in the
@@ -55,7 +55,17 @@
  */
 impl Solution {
     pub fn smaller_numbers_than_current(nums: Vec<i32>) -> Vec<i32> {
-        
+        let mut cns:Vec<i32> = nums.to_vec();
+        cns.sort();
+
+        let mut hm: HashMap<i32, i32> = HashMap::new();
+        for (i, n) in cns.iter().enumerate(){
+            if !hm.contains_key(n) { hm.insert(*n, i as i32); }
+        }
+        // let res:Vec<i32> =
+        nums.iter().map(|n| hm[n]).collect::<Vec<i32>>()
+        // println!("{:?}", res);
+        // nums
     }
 }
 
@@ -108,4 +118,38 @@ pub fn int_to_char(n: i32) -> char {
     // Convert number 0 to a, 1 to b, ...
     assert!(n >= 0 && n <= 25);
     (n as u8 + 'a' as u8) as char
+}
+
+#[allow(dead_code)]
+fn sayi32(i: i32) {
+	println!("{}", i);
+}
+
+#[allow(dead_code)]
+fn sayi32_arr(arr: &Vec<i32>) {
+	println!("{:?}", arr);
+}
+
+#[allow(dead_code)]
+pub fn bisect_left(arr: &Vec<i32>, target: i32) -> usize {
+    let (mut lo, mut hi) = (0, arr.len() - 1);
+    let mut mid;
+    while lo < hi {
+        mid = (lo + hi) >> 1; 
+        if arr[mid as usize] >= target { hi = mid; }
+        else { lo = mid + 1; }
+    }
+    lo 
+ }
+
+ #[allow(dead_code)]
+pub fn bisect_right(arr: &Vec<i32>, target: i32) -> usize {
+    let (mut lo, mut hi) = (0, arr.len() - 1);
+    let mut mid;
+    while lo < hi {
+        mid = (lo + hi + 1) >> 1; 
+        if arr[mid as usize] > target { hi = mid - 1; }
+        else { lo = mid; }
+    }
+    if arr[hi] > target { hi } else {hi + 1}
 }

@@ -46,3 +46,37 @@ pub fn int_to_char(n: i32) -> char {
     assert!(n >= 0 && n <= 25);
     (n as u8 + 'a' as u8) as char
 }
+
+#[allow(dead_code)]
+fn sayi32(i: i32) {
+	println!("{}", i);
+}
+
+#[allow(dead_code)]
+fn sayi32_arr(arr: &Vec<i32>) {
+	println!("{:?}", arr);
+}
+
+#[allow(dead_code)]
+pub fn bisect_left(arr: &Vec<i32>, target: i32) -> usize {
+    let (mut lo, mut hi) = (0, arr.len() - 1);
+    let mut mid;
+    while lo < hi {
+        mid = (lo + hi) >> 1; 
+        if arr[mid as usize] >= target { hi = mid; }
+        else { lo = mid + 1; }
+    }
+    lo 
+ }
+
+ #[allow(dead_code)]
+pub fn bisect_right(arr: &Vec<i32>, target: i32) -> usize {
+    let (mut lo, mut hi) = (0, arr.len() - 1);
+    let mut mid;
+    while lo < hi {
+        mid = (lo + hi + 1) >> 1; 
+        if arr[mid as usize] > target { hi = mid - 1; }
+        else { lo = mid; }
+    }
+    if arr[hi] > target { hi } else {hi + 1}
+}
