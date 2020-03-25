@@ -69,7 +69,7 @@ impl Solution {
     }
 }
 
-pub struct Solution;
+// pub structSolution;
 
 use std::collections::HashMap;
 use std::collections::HashSet;

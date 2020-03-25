@@ -13,6 +13,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 | :---- | :----- | :------- | 
 |𝐄.1 | [two-sum](https://leetcode.com/problems/two-sum/description/) | [Rust solution](./solutions/1.two-sum.rs)|
 |𝐄.344 | [reverse-string](https://leetcode.com/problems/reverse-string/description/) | [Rust solution](./solutions/344.reverse-string.rs)|
+|𝐄.350 | [intersection-of-two-arrays-ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) | [Rust solution](./solutions/350.intersection-of-two-arrays-ii.rs)|
 |𝐄.461 | [hamming-distance](https://leetcode.com/problems/hamming-distance/description/) | [Rust solution](./solutions/461.hamming-distance.rs)|
 |𝐄.509 | [fibonacci-number](https://leetcode.com/problems/fibonacci-number/description/) | [Rust solution](./solutions/509.fibonacci-number.rs)|
 |𝐄.561 | [array-partition-i](https://leetcode.com/problems/array-partition-i/description/) | [Rust solution](./solutions/561.array-partition-i.rs)|
