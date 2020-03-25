@@ -53,6 +53,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1290 | [convert-binary-number-in-a-linked-list-to-integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/) | [Rust solution](./solutions/1290.convert-binary-number-in-a-linked-list-to-integer.rs)|
 |𝐄.1295 | [find-numbers-with-even-number-of-digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/) | [Rust solution](./solutions/1295.find-numbers-with-even-number-of-digits.rs)|
 |𝐄.1299 | [replace-elements-with-greatest-element-on-right-side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/) | [Rust solution](./solutions/1299.replace-elements-with-greatest-element-on-right-side.rs)|
+|𝐄.1302 | [deepest-leaves-sum](https://leetcode.com/problems/deepest-leaves-sum/description/) | [Rust solution](./solutions/1302.deepest-leaves-sum.rs)|
 |𝐄.1304 | [find-n-unique-integers-sum-up-to-zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description/) | [Rust solution](./solutions/1304.find-n-unique-integers-sum-up-to-zero.rs)|
 |𝐄.1313 | [decompress-run-length-encoded-list](https://leetcode.com/problems/decompress-run-length-encoded-list/description/) | [Rust solution](./solutions/1313.decompress-run-length-encoded-list.rs)|
 |𝐄.1337 | [the-k-weakest-rows-in-a-matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/) | [Rust solution](./solutions/1337.the-k-weakest-rows-in-a-matrix.rs)|
