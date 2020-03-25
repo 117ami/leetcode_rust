@@ -39,7 +39,7 @@
  */
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
-// pub struct TreeNode {
+// // pub structTreeNode {
 //   pub val: i32,
 //   pub left: Option<Rc<RefCell<TreeNode>>>,
 //   pub right: Option<Rc<RefCell<TreeNode>>>,
@@ -75,7 +75,7 @@ impl Solution {
 }
 
 
-pub struct Solution; 
+// pub structSolution; 
 
 use std::collections::HashMap;
 use std::collections::HashSet;
