@@ -36,13 +36,13 @@ impl Solution {
                 i += 1;
             }
         }
-        // let x =  (1..=nums.len() as i32).sum::<i32>() - nums.iter().sum::<i32>();
-        // println!("{:?}", x);
+        let x =  (1..=nums.len() as i32).sum::<i32>() - nums.iter().sum::<i32>();
+        println!("{:?}", x);
     }
 }
 
 
-pub struct Solution; 
+// pub structSolution; 
 
 use std::collections::HashMap;
 use std::collections::HashSet;

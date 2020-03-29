@@ -1,48 +1,53 @@
 /*
- * @lc app=leetcode id=283 lang=rust
+ * @lc app=leetcode id=349 lang=rust
  *
- * [283] Move Zeroes
+ * [349] Intersection of Two Arrays
  *
- * https://leetcode.com/problems/move-zeroes/description/
+ * https://leetcode.com/problems/intersection-of-two-arrays/description/
  *
  * algorithms
- * Easy (56.43%)
- * Total Accepted:    640.9K
- * Total Submissions: 1.1M
- * Testcase Example:  '[0,1,0,3,12]'
+ * Easy (59.84%)
+ * Total Accepted:    314.7K
+ * Total Submissions: 525.3K
+ * Testcase Example:  '[1,2,2,1]\n[2,2]'
  *
- * Given an array nums, write a function to move all 0's to the end of it while
- * maintaining the relative order of the non-zero elements.
+ * Given two arrays, write a function to compute their intersection.
  * 
- * Example:
+ * Example 1:
  * 
  * 
- * Input: [0,1,0,3,12]
- * Output: [1,3,12,0,0]
+ * Input: nums1 = [1,2,2,1], nums2 = [2,2]
+ * Output: [2]
+ * 
+ * 
+ * 
+ * Example 2:
+ * 
+ * 
+ * Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+ * Output: [9,4]
+ * 
  * 
  * Note:
  * 
  * 
- * You must do this in-place without making a copy of the array.
- * Minimize the total number of operations.
+ * Each element in the result must be unique.
+ * The result can be in any order.
+ * 
+ * 
+ * 
  * 
  */
 impl Solution {
-    pub fn move_zeroes(nums: &mut Vec<i32>) {
-        let mut i = 0; 
-        for j in 0..nums.len(){
-            if nums[j] != 0 {
-                nums.swap(i, j);
-                i += 1;
-            }
-        }
-        // let x =  (1..=nums.len() as i32).sum::<i32>() - nums.iter().sum::<i32>();
-        // println!("{:?}", x);
+    pub fn intersection(a: Vec<i32>, b: Vec<i32>) -> Vec<i32> {
+        let sa:HashSet<i32> = a.into_iter().collect();
+        let sb:HashSet<i32> = b.into_iter().collect();
+        sa.intersection(&sb).map(|n| *n).collect()
     }
 }
 
 
-pub struct Solution; 
+// pub structSolution; 
 
 use std::collections::HashMap;
 use std::collections::HashSet;
