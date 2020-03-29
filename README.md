@@ -75,5 +75,6 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1385 | [find-the-distance-value-between-two-arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/description/) | [Rust solution](./solutions/1385.find-the-distance-value-between-two-arrays.rs)|
 |𝐄.1387 | [sort-integers-by-the-power-value](https://leetcode.com/problems/sort-integers-by-the-power-value/description/) | [Rust solution](./solutions/1387.sort-integers-by-the-power-value.rs)|
 |𝐄.1389 | [create-target-array-in-the-given-order](https://leetcode.com/problems/create-target-array-in-the-given-order/description/) | [Rust solution](./solutions/1389.create-target-array-in-the-given-order.rs)|
+|𝐄.1395 | [count-number-of-teams](https://leetcode.com/problems/count-number-of-teams/description/) | [Rust solution](./solutions/1395.count-number-of-teams.rs)|
 
 
