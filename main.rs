@@ -2,7 +2,7 @@
 mod question; 
 
 fn main(){
-	let ns = vec![1,2,3,4];
-	println!("{:?}", question::Solution::num_teams(ns));
+	let arr = vec![2,2,3,4];
+	println!("{:?}", question::Solution::find_lucky(arr));
 }
 
