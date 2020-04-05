@@ -76,12 +76,12 @@ impl Solution {
         for v in cnt {
             if v == cmax { res += 1 ;}
         }
-        res     
+        res 
     }
 }
 
 
-pub struct Solution; 
+// pub structSolution; 
 
 use std::collections::HashMap;
 use std::collections::HashSet;

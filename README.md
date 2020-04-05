@@ -77,5 +77,6 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 |𝐄.1389 | [create-target-array-in-the-given-order](https://leetcode.com/problems/create-target-array-in-the-given-order/description/) | [Rust solution](./solutions/1389.create-target-array-in-the-given-order.rs)|
 |𝐄.1394 | [find-lucky-integer-in-an-array](https://leetcode.com/problems/find-lucky-integer-in-an-array/description/) | [Rust solution](./solutions/1394.find-lucky-integer-in-an-array.rs)|
 |𝐄.1395 | [count-number-of-teams](https://leetcode.com/problems/count-number-of-teams/description/) | [Rust solution](./solutions/1395.count-number-of-teams.rs)|
+|𝐄.1399 | [count-largest-group](https://leetcode.com/problems/count-largest-group/description/) | [Rust solution](./solutions/1399.count-largest-group.rs)|
 
 
