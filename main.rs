@@ -2,6 +2,7 @@
 mod question; 
 
 fn main(){
-	println!("{:?}", question::Solution::count_largest_group(24));
+	let s = vec!["eat".to_string(), "tea".into(), "tan".into(), "ate".into(), "nat".into(), "bat".into()];
+	println!("{:?}", question::Solution::group_anagrams(s));
 }
 

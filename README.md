@@ -12,6 +12,7 @@ Leetcode(www.leetcode.com) solutions with Rust programming language, inspired by
 | #    | Title | Talk is cheap, show me the code. | 
 | :---- | :----- | :------- | 
 |𝐄.1 | [two-sum](https://leetcode.com/problems/two-sum/description/) | [Rust solution](./solutions/1.two-sum.rs)|
+|𝐄.49 | [group-anagrams](https://leetcode.com/problems/group-anagrams/description/) | [Rust solution](./solutions/49.group-anagrams.rs)|
 |𝐄.283 | [move-zeroes](https://leetcode.com/problems/move-zeroes/description/) | [Rust solution](./solutions/283.move-zeroes.rs)|
 |𝐄.344 | [reverse-string](https://leetcode.com/problems/reverse-string/description/) | [Rust solution](./solutions/344.reverse-string.rs)|
 |𝐄.349 | [intersection-of-two-arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | [Rust solution](./solutions/349.intersection-of-two-arrays.rs)|
