@@ -1,78 +1,88 @@
 /*
- * @lc app=leetcode id=1234 lang=rust
+ * @lc app=leetcode id=1402 lang=rust
  *
- * [1234] Replace the Substring for Balanced String
+ * [1402] Reducing Dishes
  *
- * https://leetcode.com/problems/replace-the-substring-for-balanced-string/description/
+ * https://leetcode.com/problems/reducing-dishes/description/
  *
  * algorithms
- * Medium (31.48%)
- * Total Accepted:    7.7K
- * Total Submissions: 24.5K
- * Testcase Example:  '"QWER"'
+ * Hard (74.25%)
+ * Total Accepted:    3.7K
+ * Total Submissions: 5K
+ * Testcase Example:  '[-1,-8,0,5,-7]'
  *
- * You are given a string containing only 4 kinds of characters 'Q', 'W', 'E'
- * and 'R'.
+ * A chef has collected data on the satisfaction level of his n dishes. Chef
+ * can cook any dish in 1 unit of time.
  * 
- * A string is said to be balanced if each of its characters appears n/4 times
- * where n is the length of the string.
+ * Like-time coefficient of a dish is defined as the time taken to cook that
+ * dish including previous dishes multiplied by its satisfaction level  i.e.
+ * time[i]*satisfaction[i]
  * 
- * Return the minimum length of the substring that can be replaced with any
- * other string of the same length to make the original string s balanced.
+ * Return the maximum sum of Like-time coefficient that the chef can obtain
+ * after dishes preparation.
  * 
- * Return 0 if the string is already balanced.
+ * Dishes can be prepared in any order and the chef can discard some dishes to
+ * get this maximum value.
  * 
  * 
  * Example 1:
  * 
  * 
- * Input: s = "QWER"
- * Output: 0
- * Explanation: s is already balanced.
+ * Input: satisfaction = [-1,-8,0,5,-9]
+ * Output: 14
+ * Explanation: After Removing the second and last dish, the maximum total
+ * Like-time coefficient will be equal to (-1*1 + 0*2 + 5*3 = 14). Each dish is
+ * prepared in one unit of time.
  * 
  * Example 2:
  * 
  * 
- * Input: s = "QQWE"
- * Output: 1
- * Explanation: We need to replace a 'Q' to 'R', so that "RQWE" (or "QRWE") is
- * balanced.
+ * Input: satisfaction = [4,3,2]
+ * Output: 20
+ * Explanation: Dishes can be prepared in any order, (2*1 + 3*2 + 4*3 = 20)
  * 
  * 
  * Example 3:
  * 
  * 
- * Input: s = "QQQW"
- * Output: 2
- * Explanation: We can replace the first "QQ" to "ER". 
+ * Input: satisfaction = [-1,-4,-5]
+ * Output: 0
+ * Explanation: People don't like the dishes. No dish is prepared.
  * 
  * 
  * Example 4:
  * 
  * 
- * Input: s = "QQQQ"
- * Output: 3
- * Explanation: We can replace the last 3 'Q' to make s = "QWER".
+ * Input: satisfaction = [-2,5,-1,0,3,-3]
+ * Output: 35
  * 
  * 
  * 
  * Constraints:
  * 
  * 
- * 1 <= s.length <= 10^5
- * s.length is a multiple of 4
- * s contains only 'Q', 'W', 'E' and 'R'.
- * 
+ * n == satisfaction.length
+ * 1 <= n <= 500
+ * -10^3 <= satisfaction[i] <= 10^3
  * 
  */
 impl Solution {
-    pub fn balanced_string(s: String) -> i32 {
-        
+    pub fn max_satisfaction(sa: Vec<i32>) -> i32 {
+        let mut sa = sa;
+        sa.sort(); 
+        sa.reverse(); 
+        let (mut res, mut part, mut i) = (0, 0, 0_usize) ;
+        while i < sa.len() && part + sa[i] > 0 {
+            part += sa[i];
+            res += part; 
+            i += 1; 
+        }
+        res 
     }
 }
 
 
-pub struct Solution; 
+// pub structSolution; 
 
 use std::collections::HashMap;
 use std::collections::HashSet;
